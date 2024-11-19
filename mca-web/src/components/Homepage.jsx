@@ -43,7 +43,7 @@ export const Homepage = () => {
                         <img src="https://egspec.org/assets/nirf.webp" alt="" />
                     </picture>
                     <picture id='councling'>
-                    <img src="https://egspec.org/assets/images/counseling_code.gif" alt="Logo 6" class="square-logo" loading="lazy" />
+                    <img src="https://egspec.org/assets/images/counseling_code.gif" alt="Logo 6" class="square-logo" loading="lazy" height={"50px"}/>
                     </picture>
                 </div>
             </div>
@@ -62,7 +62,7 @@ export const Homepage = () => {
                         <div className="hero-content">
                             <h1 className='hero-title'>About</h1>
                             <h1 className='hero-title title-name'>EGSPEC <span>MCA</span></h1>
-                            <div></div>
+                            <div id='dash'></div>
                             <p className='hero-description'>Established in 1995, E. G. S. Pillay Engineering College is a renowned institution in Tamil Nadu, known for its exceptional infrastructure and academic excellence. Affiliated with Anna University since 2002, it empowers aspiring engineers and managers through comprehensive programs and activities.</p>
                             <div className="d-flex justify-content-between link align-items-center">
                                 <p><a href="#">EGSPEC MCA overview <i className='fa-solid fa-arrow-right'></i></a></p>

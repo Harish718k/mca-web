@@ -108,7 +108,7 @@ p{
     color: #AF005E;
 }
 
-.hero-content > div:nth-child(0){
+.hero-content #dash{
     width: 180px;
     height: 1px;
     background-color: #fff;
