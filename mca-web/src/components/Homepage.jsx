@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from "react-router-dom"
 
 export const Homepage = () => {
   return (
@@ -51,21 +52,21 @@ export const Homepage = () => {
         <section className="hero">
             <div className="hero-wapper">
                 <div className="row d-flex">
-                    <div className="col-6 d-flex justify-content-center">
+                    <div className="col-12 col-sm-6 d-flex justify-content-center">
                         <div className="hero-image">
                             <picture>
                                 <img src="https://content3.jdmagicbox.com/comp/nagapattinam/dc/9999p4365.4365.1228281611l1c1r9.dc/catalogue/egs-pillay-engineering-college-nagore-nagapattinam-colleges-ycrzqy.jpg" alt="" />
                             </picture>
                         </div>
                     </div>
-                    <div className="col-6">
+                    <div className="col-12 col-sm-6">
                         <div className="hero-content">
                             <h1 className='hero-title'>About</h1>
                             <h1 className='hero-title title-name'>EGSPEC <span>MCA</span></h1>
                             <div id='dash'></div>
                             <p className='hero-description'>Established in 1995, E. G. S. Pillay Engineering College is a renowned institution in Tamil Nadu, known for its exceptional infrastructure and academic excellence. Affiliated with Anna University since 2002, it empowers aspiring engineers and managers through comprehensive programs and activities.</p>
                             <div className="d-flex justify-content-between link align-items-center">
-                                <p><a href="#">EGSPEC MCA overview <i className='fa-solid fa-arrow-right'></i></a></p>
+                                <p><Link to="Department/mca">EGSPEC MCA overview <i className='fa-solid fa-arrow-right'></i></Link></p>
                                 <span className='d-flex justify-content-end'>EST. 1995</span>
                             </div>
                         </div>
