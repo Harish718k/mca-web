@@ -2,16 +2,12 @@
     background-color: #fff;
 }
 
-.mca-wapper .header picture{
-    width: 100%;
-    height: 60px;
-    background-color: #fff;
-    display: flex;
-    justify-content: center;
+.header2 a {
+    text-decoration: none;
 }
 
-.mca-wapper .header picture img{
-    width: 500px;
+.header2 h4{
+    color: rgb(255, 255, 255);
 }
 
 .header2{
@@ -39,7 +35,8 @@
     color: black;
 }
 
-.navigation{
-    height: 500px;
-    border-bottom: 2px solid;
+#home .wrapper{
+    background: url('./img/aboutthecollege.jpg');
+    background-color: aqua;
 }
+

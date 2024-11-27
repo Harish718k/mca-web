@@ -9,15 +9,13 @@ export const Department_mca = () => {
         <section className="mca-homepage">
             <div className="mca-wapper">
                 <div className="header d-inline">
-                    <Link to='/'>
-                    <picture>
-                        <img src="https://egspec.org/assets/images/EGSLOGO_2.webp" alt="" />
-                    </picture>
-                    </Link>
+                    
                     <div className="row">
-                    <div className="header2 d-sm-flex">
-                        <h4 className='col-12 col-sm-6 d-flex align-items-center justify-content-center'>DEPARTMENT OF MCA</h4>
-                        <nav className='col-12 col-sm-6'>
+                    <div className="header2 d-sm-flex justify-content-between">
+                        <Link to='/' className='col-12 col-sm-4 d-flex align-items-center justify-content-center justify-content-sm-start'>
+                        <h4 >EGSPEC MCA</h4>
+                        </Link>
+                         <nav className='col-12 col-sm-6'>
                             <ul className='d-flex justify-content-evenly p-2'>
                                 <li><AnchorLink href='#home'>Home</AnchorLink></li>
                                 <li><AnchorLink href='#blogs'>Blogs</AnchorLink></li>
@@ -31,7 +29,17 @@ export const Department_mca = () => {
             </div>
         </section>
         <section id="home">
-            <div className="navigation">HOME</div>
+                <div className="wrapper">
+                    <div className="container">
+                        <h1>Unleash Your Potential <br/>with Our Advanced<br/> MCA Program</h1>
+                        <p>Welcome to the Department of Computer Applications, where innovation meets excellence. 
+                           <br/>Our department is at the forefront of cutting-edge research and education in the field of computer applications.</p>
+                        <div className="buttons d-flex gap-3">
+                            <button className="btn btn-primary">Get started</button>
+                            <button className="btn btn-dark">Learn more</button>
+                        </div>
+                    </div>
+                </div>
         </section>
         <section id="blogs">
         <div className="navigation">BLOGS</div>
