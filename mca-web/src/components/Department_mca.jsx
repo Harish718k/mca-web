@@ -2,6 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import AnchorLink from "react-anchor-link-smooth-scroll"
 import './department.css'
+import { About } from './About'
 
 export const Department_mca = () => {
   return (
@@ -18,10 +19,9 @@ export const Department_mca = () => {
                                 <nav className='col-12 col-sm-9 col-lg-7'>
                                     <ul className='d-flex justify-content-between p-2'>
                                         <li><AnchorLink href='#home'>Home</AnchorLink></li>
-                                        <li><AnchorLink href='#blogs'>Placement</AnchorLink></li>
-                                        <li><AnchorLink href='#blogs'>About Us</AnchorLink></li>
-                                        <li><AnchorLink href='#blogs'>Addmission</AnchorLink></li>
-                                        <li><AnchorLink href='#about'>Blog</AnchorLink></li>
+                                        <li><AnchorLink href='#placement'>Placement</AnchorLink></li>
+                                        <li><AnchorLink href='#about'>About Us</AnchorLink></li>
+                                        <li><AnchorLink href='#blog'>Blog</AnchorLink></li>
                                         <li><AnchorLink href='#contact'>Contact Us</AnchorLink></li>
                                     </ul>
                                 </nav>
@@ -44,7 +44,7 @@ export const Department_mca = () => {
                 </section>
             </div>
         </section>
-        <section id="Placement" className='my-5'>
+        <section id="placement" className='my-5'>
             <div className="placement-wrapper">
                 <div className="containers">
                     <h1 className="text-center py-4">PLACEMENT</h1>
@@ -69,16 +69,69 @@ export const Department_mca = () => {
                     </div>
                     <h1>Academic Partners</h1>
                     <div className="logofield d-flex">
-                        
+                        --
+                    </div>
+                    <h1>Our Recruiters</h1>
+                    <div className="logofield d-flex">
+                        --
                     </div>
                 </div>
             </div>
         </section>
-        <section id="about">
-        <div className="navigation">ABOUT</div>
+        <section id="about" className="my-5 py-5 d-flex justify-content-center">
+            <div className="about-wrapper">
+                <div className="containers about-container text-center">
+                    <h1 className='my-3'>What Our Students Say About Us</h1>
+                    <p className='py-4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque ex, nesciunt numquam rem quas quo?</p>
+                    <About />
+                </div>
+            </div>
         </section>
-        <section id="contact">
-        <div className="navigation">CONTACT</div>
+        <section id="blog" className='mt-3 py-3'>
+            <div className="blog-wrapper">
+                <div className="containers">
+                    <h1>ZIGBEE CLUB</h1>
+                    <h2>Activities And Hands-On Sessions</h2>
+                    <div className="blog-field d-flex justify-content-around align-items-center gap-5 py-5">
+                        <div className="card">
+                            <div className="img-field">
+                                <img src="\src\assets\img\session1.jpg" alt="" />
+                            </div>
+                            <div className="details p-4">
+                                <button className='btn btn-primary mx-5'>Recommend</button>
+                                <h6 className='py-3 my-0'>29 SEP 2024</h6>
+                                <h4>Chatbot creation using Dialogflow</h4>
+                                <p className='mt-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dicta!</p>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <div className="img-field">
+                                <img src="\src\assets\img\session1.jpg" alt="" />
+                            </div>
+                            <div className="details p-4">
+                                <button className='btn btn-primary mx-5'>Recommend</button>
+                                <h6 className='py-3 my-0'>29 SEP 2024</h6>
+                                <h4>Chatbot creation using Dialogflow</h4>
+                                <p className='mt-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dicta!</p>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <div className="img-field">
+                                <img src="\src\assets\img\session1.jpg" alt="" />
+                            </div>
+                            <div className="details p-4">
+                                <button className='btn btn-primary mx-5'>Recommend</button>
+                                <h6 className='py-3 my-0'>29 SEP 2024</h6>
+                                <h4>Chatbot creation using Dialogflow</h4>
+                                <p className='mt-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dicta!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='btn-field d-flex justify-content-center'>
+                        <button className='btn btn-primary'>View More</button>
+                    </div>
+                </div>
+            </div>
         </section>
     </div>
   )
