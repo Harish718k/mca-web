@@ -98,7 +98,7 @@ export const Department_mca = () => {
                                 <img src="\src\assets\img\session1.jpg" alt="" />
                             </div>
                             <div className="details p-4">
-                                <button className='btn btn-primary mx-5'>Recommend</button>
+                                <button className='btn btn-primary mx-3'>Recommend</button>
                                 <h6 className='py-3 my-0'>29 SEP 2024</h6>
                                 <h4>Chatbot creation using Dialogflow</h4>
                                 <p className='mt-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dicta!</p>
@@ -109,7 +109,7 @@ export const Department_mca = () => {
                                 <img src="\src\assets\img\session1.jpg" alt="" />
                             </div>
                             <div className="details p-4">
-                                <button className='btn btn-primary mx-5'>Recommend</button>
+                                <button className='btn btn-primary mx-3'>Recommend</button>
                                 <h6 className='py-3 my-0'>29 SEP 2024</h6>
                                 <h4>Chatbot creation using Dialogflow</h4>
                                 <p className='mt-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dicta!</p>
@@ -120,7 +120,7 @@ export const Department_mca = () => {
                                 <img src="\src\assets\img\session1.jpg" alt="" />
                             </div>
                             <div className="details p-4">
-                                <button className='btn btn-primary mx-5'>Recommend</button>
+                                <button className='btn btn-primary mx-3'>Recommend</button>
                                 <h6 className='py-3 my-0'>29 SEP 2024</h6>
                                 <h4>Chatbot creation using Dialogflow</h4>
                                 <p className='mt-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dicta!</p>
@@ -133,6 +133,43 @@ export const Department_mca = () => {
                 </div>
             </div>
         </section>
+        <footer id="footer" className='py-5'>
+            <div className="footer-wrapper">
+                <div className="containers">
+                    <div className="row gap-4">
+                        <div className="col-5">
+                            <h1 className='mt-3'>EGSPEC</h1>
+                            <p className='py-3'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam repellat rerum fuga nesciunt consectetur nobis sed expedita consequatur suscipit fugit.</p>
+                        </div>
+                        <div className="col-2">
+                            <h5>Quick Link</h5>
+                            <ul className='py-3'>
+                                <li><AnchorLink href='#home'>Home</AnchorLink></li>
+                                <li><AnchorLink href='#placement'>Placement</AnchorLink></li>
+                                <li><AnchorLink href='#about'>About Us</AnchorLink></li>
+                                <li><AnchorLink href='#blog'>Blog</AnchorLink></li>
+                                <li><AnchorLink href='#contact'>Contact Us</AnchorLink></li>
+                            </ul>
+                        </div>
+                        <div className="col-2">
+                            <h5>Pages</h5>
+                            <ul className='py-3'>
+                                <li><Link to='/'>EGS Homepage</Link></li>
+                            </ul>
+                        </div>
+                        <div className="col-2">
+                            <h5>Follow Us</h5>
+                            <ul className='py-3'>
+                                <li><AnchorLink href='#' className='insta'>Instagram <i className='fa-brands fa-instagram'></i></AnchorLink></li>
+                                <li><AnchorLink href='#' className='fb'>Facebook <i className='fa-brands fa-facebook'></i></AnchorLink></li>
+                                <li><AnchorLink href='#' className='twitter'>Twitter <i className='fa-brands fa-twitter'></i></AnchorLink></li>
+                                <li><AnchorLink href='#' className='yt'>Youtube <i className='fa-brands fa-youtube'></i></AnchorLink></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
   )
 }

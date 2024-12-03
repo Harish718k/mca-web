@@ -158,6 +158,44 @@ nav ul li a:hover{
     width: 100%;
 }
 
+#footer{
+    background-color: var(--primary);
+    color: white;
+}
+
+.footer-wrapper h1{
+    color: #fff;
+}
+
+.footer-wrapper ul{
+    list-style: none;
+    padding: 0px;
+}
+
+.footer-wrapper ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+}
+
+.footer-wrapper ul li a:hover{
+    color: #000;
+}
+
+
+.footer-wrapper .row>div:nth-child(4) .insta:hover{
+    filter: drop-shadow(1px 1px 2px rgb(255, 0, 85));
+}
+.footer-wrapper .row>div:nth-child(4) .fb:hover{
+    filter: drop-shadow(1px 1px 2px rgb(19, 0, 88));
+}
+.footer-wrapper .row>div:nth-child(4) .twitter:hover{
+    filter: drop-shadow(0px 0px 5px rgb(0, 52, 221));
+}
+.footer-wrapper .row>div:nth-child(4) .yt:hover{
+    filter: drop-shadow(0px 0px 5px rgb(255, 0, 0));
+}
+
 @media screen and (max-width: 1020px){
     :root {
         --primary: #1e90ff;
