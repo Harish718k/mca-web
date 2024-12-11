@@ -4,6 +4,21 @@ import AnchorLink from "react-anchor-link-smooth-scroll"
 import './department.css'
 import { About } from './About'
 
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if(entry.isIntersecting){
+            entry.target.classList.add('show');
+        }
+        else{
+            entry.target.classList.remove('show');
+        }
+    });
+});
+
+const hiddenElements = document.querySelectorAll('.hidden');
+hiddenElements.forEach((el) => observer.observe(el));
+
 export const Department_mca = () => {
   return (
     <div className='mca-page'>
@@ -31,7 +46,7 @@ export const Department_mca = () => {
                 </div>
                 <section id="home">
                     <div className="wrapper">
-                        <div className="containers text-center py-4">
+                        <div className="containers hidden text-center py-4">
                             <h1 className='py-5'>Unleash Your Potential <br/>with Our Advanced<br/> MCA Program</h1>
                             <p className='py-2'>Welcome to the Department of Computer Applications, where innovation meets excellence. 
                             <br/>Our department is at the forefront of cutting-edge research and education in the field of computer applications.</p>
@@ -44,9 +59,9 @@ export const Department_mca = () => {
                 </section>
             </div>
         </section>
-        <section id="placement" className='my-5'>
+        <section id="placement">
             <div className="placement-wrapper">
-                <div className="containers">
+                <div className="containers hidden">
                     <h1 className="text-center py-4">PLACEMENT</h1>
                     <p className='text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque perferendis ducimus labore assumenda dicta ipsam, fugiat consequatur mollitia aspernatur temporibus!</p>
                     <div className="record d-flex justify-content-between py-5">
@@ -80,7 +95,7 @@ export const Department_mca = () => {
         </section>
         <section id="about" className="my-5 py-5 d-flex justify-content-center">
             <div className="about-wrapper">
-                <div className="containers about-container text-center">
+                <div className="containers hidden about-container text-center">
                     <h1 className='my-3'>What Our Students Say About Us</h1>
                     <p className='py-4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque ex, nesciunt numquam rem quas quo?</p>
                     <About />
@@ -89,7 +104,7 @@ export const Department_mca = () => {
         </section>
         <section id="blog" className='mt-3 py-3'>
             <div className="blog-wrapper">
-                <div className="containers">
+                <div className="containers hidden">
                     <h1>ZIGBEE CLUB</h1>
                     <h2>Activities And Hands-On Sessions</h2>
                     <div className="blog-field d-flex justify-content-around align-items-center gap-5 py-5">
@@ -133,9 +148,9 @@ export const Department_mca = () => {
                 </div>
             </div>
         </section>
-        <footer id="footer" className='py-5'>
+        <footer id="footer" className='py-5 px-4'>
             <div className="footer-wrapper">
-                <div className="containers">
+                <div className="containers hidden">
                     <div className="row gap-4">
                         <div className="col-5">
                             <h1 className='mt-3'>EGSPEC</h1>

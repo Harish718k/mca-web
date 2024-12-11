@@ -1,0 +1,22 @@
+{
+    "oldStudents" : {
+        "1" : {
+            "name" : "Ajith Kumar",
+            "occupation" : "Racer | Actor",
+            "img" : "student1.jpg",
+            "about":"Faculty were dedicated, but facilities could use updates. The college fostered a good learning environment, though career guidance could be improved. Overall, a valuable experience with room for growth."
+        },
+        "2" : {
+            "name" : "Vijay",
+            "occupation" : "Actor",
+            "img" : "student2.jpg",
+            "about" : "The professors were knowledgeable, but the curriculum felt a bit outdated. The campus had a good atmosphere, but social life could be more vibrant. I learned a lot, but I wish there were more opportunities for internships."
+        },
+        "3" : {
+            "name" : "Simbu",
+            "occupation" : "Singer | Actor",
+            "img" : "student3.jpg",
+            "about" : "Looking back, the college provided a strong foundation. The professors were passionate, but the labs could be better equipped. I made lifelong friends, but I felt the career services could be more proactive in connecting students with employers."
+        }
+    }
+}
